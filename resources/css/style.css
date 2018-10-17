@@ -1,4 +1,9 @@
-.main {
+body {
 	padding-top: 7em;	
 	background-color: slategrey;
+}
+
+footer {
+	margin-top: 1em;
+	background-color: rgb(27, 28, 29);
 }
