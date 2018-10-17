@@ -8,6 +8,10 @@ footer {
 	background-color: rgb(27, 28, 29);
 }
 
+#right-mobile-menu {
+	display: none;
+}
+
 @media only screen and (max-width: 1200px) {
 	.ui.massive.list {
 		font-size: 1.5em;
@@ -18,10 +22,26 @@ footer {
 	.ui.massive.list {
 		font-size: 1em;
 	}
+
+	#right-desk-menu {
+		display: flex;
+	}
+
+	#right-mobile-menu {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 770px) {
 	.ui.massive.list {
 		font-size: 1.7em;
+	}
+
+	#right-desk-menu {
+		display: none;
+	}
+
+	#right-mobile-menu {
+		display: flex;
 	}
 }
