@@ -8,6 +8,10 @@ footer {
 	background-color: rgb(27, 28, 29);
 }
 
+.item i {
+	color: teal;
+}
+
 #right-mobile-menu {
 	display: none;
 }
