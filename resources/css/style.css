@@ -8,7 +8,12 @@ footer {
 	background-color: rgb(27, 28, 29);
 }
 
-.item i {
+.skillicon {
+	font-size: 5rem;
+}
+
+.portfolioIcon {
+	font-size: 2rem;
 	color: teal;
 }
 
@@ -49,3 +54,4 @@ footer {
 		display: flex;
 	}
 }
+
