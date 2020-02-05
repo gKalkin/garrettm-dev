@@ -1,10 +1,15 @@
+
 body {
-	padding-top: 7em;	
 	background-color: slategrey;
 }
 
+
+#main {
+	min-height: 100%;
+}
+
 footer {
-	margin-top: 1em;
+	margin-top: 2em;
 	background-color: rgb(27, 28, 29);
 }
 
@@ -21,6 +26,14 @@ footer {
 	display: none;
 }
 
+#resumeModal {
+	height: 90%;
+}
+
+#skills {
+	margin: 1em 0em;
+}
+
 @media only screen and (max-width: 1200px) {
 	.ui.massive.list {
 		font-size: 1.5em;
@@ -28,16 +41,22 @@ footer {
 }
 
 @media only screen and (max-width: 990px) {
+
+	body {
+		padding-top: 2em;
+		background-color: slategrey;
+	}
+
 	.ui.massive.list {
 		font-size: 1em;
 	}
 
 	#right-desk-menu {
-		display: flex;
+		display: none;
 	}
 
 	#right-mobile-menu {
-		display: none;
+		display: flex;
 	}
 }
 
